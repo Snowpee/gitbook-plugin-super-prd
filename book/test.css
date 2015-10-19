@@ -1,0 +1,11 @@
+body {
+    font-family: "Classic Grotesque W01", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+img {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+}
+.book .book-summary ul.summary li i.fa-check,
+.book .book-summary ul.summary li i.fa,
+.book .book-summary ul.summary li.done>a i {
+    display: none;
+}

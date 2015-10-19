@@ -1,0 +1,18 @@
+{
+    "name": "gitbook-plugin-super-prd",
+    "description": "Super you PRD style",
+    "main": "index.js",
+    "version": "0.0.1",
+    "engines": {
+        "gitbook": "*"
+    },
+    "homepage": "https://github.com/Snowpee/super-prd",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Snowpee/super-prd.git"
+    },
+    "license": "Apache 2.0",
+    "bugs": {
+        "url": "https://github.com/Snowpee/super-prd/issues"
+    }
+}
