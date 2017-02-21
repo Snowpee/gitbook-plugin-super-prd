@@ -1,61 +1,77 @@
-blockquote.alert > strong
-{
-	display      : inline-block;
-	text-align   : center;
-	float        : left;
-	width        : 60px;
-  	height       : 80px;
-	margin-right : 10px;
-  	padding-top  : 14px;
+/*
+-
+global
+-
+*/
+body {
+    font-family: "Classic Grotesque W01", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
 }
 
-blockquote.alert
-{
-	border-radius     : 5px;
+img {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+}
+
+blockquote.alert > strong {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 60px;
+    height: 80px;
+    margin-right: 10px;
+    padding-top: 14px;
+}
+
+blockquote.alert {
+    border-radius: 5px;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal blockquote > :last-child {
-	margin-bottom: inherit;
-	margin-top: 15px;
+    margin-bottom: inherit;
+    margin-top: 15px;
 }
 
-.alert-quote
-{
-	background-color : white;
+.alert-quote {
+    background-color: white;
 }
-
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+ /* 1 */
+    display: table;
+ /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
 
-/*  */
-body {
-    font-family: "Classic Grotesque W01", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
-}
-img {
-	box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
-}
 .fancybox-lock .fancybox-overlay {
     background-color: rgba(0, 0, 0, .2);
 }
-/* hide sidebar check icon */
+
+/*
+-
+hide sidebar check icon
+-
+*/
+
 .book .book-summary ul.summary li i.fa-check,
 .book .book-summary ul.summary li i.fa,
 .book .book-summary ul.summary li.done>a i {
     display: none;
 }
+
 .book .book-body .page-wrapper .page-inner section.normal blockquote {
     color: #444;
 }
 
-/* toc */
+/*
+-
+toc
+-
+*/
+
 #section- .atoc {
     background: #fafafa;
     border-radius: 4px;
@@ -70,82 +86,100 @@ img {
     background: rgba(255,255,255,0.95);
     box-shadow: 0 1px 3px rgba(0,0,0,0.15);
     transition: all 0.1s ease-in-out;
-		top: 1%;
+    top: 1%;
     max-height: 98%;
     overflow-x: scroll;
     z-index: 999;
 }
+
 #section- .atoc:before {
-	content: "TOC";
-	display: block;
-	width: 30px;
-	height: 80px;
-	padding: 5px;
-	background-color: rgba(0,0,0,0.3);
-	color: #fff;
-	text-align: center;
-	font-size: 14px;
-	position: absolute;
-	top: 0;
-	left: -40px;
+    content: "TOC";
+    display: block;
+    width: 30px;
+    height: 80px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: -40px;
 }
+
 #section- .atoc:hover {
-	right: 0;
+    right: 0;
 }
 
 @media (min-width: 1600px) {
-	#section- .atoc {
-		right: 10px;
-	}
-	#section- .atoc:hover {
-		right: 10px;
-	}
-	#section- .atoc:before {
-		display: none;
-	}
+    #section- .atoc {
+        right: 10px;
+    }
 
+    #section- .atoc:hover {
+        right: 10px;
+    }
+
+    #section- .atoc:before {
+        display: none;
+    }
 }
 
-/* quote */
+/*
+--
+quote
+--
+*/
 
 .book .book-body .page-wrapper .page-inner section.normal blockquote.alert {
-  border-bottom: 0 none;
-  border-left: 0 none;
+    border-bottom: 0 none;
+    border-left: 0 none;
 }
+
 blockquote.alert.alert-quote {
-	background-color: #f7f7f7;
+    background-color: #f7f7f7;
 }
+
 blockquote.alert strong.fa {
     display: none;
 }
+
+/* the app quote is a special style */
 
 .book .book-body .page-wrapper .page-inner section.normal blockquote.alert-app {
     padding: 1px;
     background-color: #f7f7f7;
     border-radius: 0;
 }
+
+.book .book-body .page-wrapper .page-inner section.normal blockquote.alert-app>p:first-of-type {
+    margin-top: 20px;
+}
+
 .book .book-body .page-wrapper .page-inner section.normal blockquote.alert-app>ul,
 .book .book-body .page-wrapper .page-inner section.normal blockquote.alert-app>ol {
-	margin: 15px;
+    margin: 15px;
     margin-left: 50%;
     font-size: .94em;
-
 }
+
 .book .book-body .page-wrapper .page-inner section.normal blockquote.alert-app>ul>li,
 .book .book-body .page-wrapper .page-inner section.normal blockquote.alert-app>ol>li {
-	list-style-type: upper-alpha;
-	margin-bottom: 5px;
+    list-style-type: upper-alpha;
+    margin-bottom: 5px;
 }
+
 .book .book-body .page-wrapper .page-inner section.normal blockquote.alert-app a img {
-	width: 49%;
+    width: 49%;
     float: left;
+}
 
-    }
- .book .book-body .page-wrapper .page-inner section.normal blockquote.alert-app a:first-child img {
- 	margin-right: 2%;
- }
+.book .book-body .page-wrapper .page-inner section.normal blockquote.alert-app a:first-child img {
+    margin-right: 2%;
+    margin-top: -20px;
+}
 
- .body-inner .book-header .sharing-link,
- .body-inner .book-header .dropdown {
- 	display: none;
- }
+.body-inner .book-header .sharing-link,
+.body-inner .book-header .dropdown {
+    display: none;
+}

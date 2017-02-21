@@ -2,31 +2,17 @@
   "name": "gitbook-plugin-super-prd",
   "description": "Super you PRD style",
   "main": "index.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "gitbook": "*"
   },
-  "dependencies": {
-    "cheerio": "^0.19.0",
-    "underscore": "^1.8.3"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "homepage": "https://github.com/Snowpee/super-prd",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Snowpee/super-prd.git"
+      "type": "git",
+      "url": "https://github.com/Snowpee/super-prd.git"
   },
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/Snowpee/super-prd/issues"
-  },
-  "readme": "Super PRD\n==============\n\nSuper you PRD Style.\n\n- Hide the checkbox in sidebar;\n- Better font;\n- Image shadow;\n- More quote style\n    - `> **spec**`\n    - `> **info**`\n    - `> **note**`\n    - `> **hint**`\n- `> **app**`, a new feature. \n\n\n## Usage\nAdd the plugin to your book.json like this:\n\n```\n{\n    \"plugins\": [\"super-prd\"]\n}\n```\n\n",
-  "readmeFilename": "README.md",
-  "gitHead": "5fd0c4f1aeb824f31771a6636b26e8da66f0a4a9",
-  "_id": "gitbook-plugin-super-prd@0.1.0",
-  "_shasum": "125e22de048c2803665b4e5406e41d65dc5e3856",
-  "_from": "gitbook-plugin-super-prd@0.1.0"
+      "url": "https://github.com/Snowpee/super-prd/issues"
+  }
 }
