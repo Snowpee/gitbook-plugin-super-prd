@@ -33,7 +33,10 @@ module.exports = {
 		assets: "./book",
 		css   : [
 			"plugin.css"
-		]
+		],
+    js: [
+      "test.js"
+    ]
 	},
 	hooks: {
 		// For all the hooks, this represent the current generator
@@ -103,7 +106,6 @@ module.exports = {
 					}
 				);
 			}
-
 			return page;
 		}
 	}

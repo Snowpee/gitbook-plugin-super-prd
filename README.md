@@ -11,8 +11,8 @@ Super you PRD Style.
     - `> **info**`
     - `> **note**`
     - `> **hint**`
-- `> **app**`, a new feature. 
-
+- `> **app**`, a new feature;
+- `***hightlight***` some word;
 
 ## Usage
 Add the plugin to your book.json like this:
@@ -22,4 +22,3 @@ Add the plugin to your book.json like this:
     "plugins": ["super-prd"]
 }
 ```
-

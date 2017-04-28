@@ -183,3 +183,12 @@ blockquote.alert strong.fa {
 .body-inner .book-header .dropdown {
     display: none;
 }
+
+.book .book-body .page-wrapper .page-inner section.normal strong em {
+  background-color: rgba(255, 255, 0, 0.3);
+  font-style: normal;
+  font-weight: normal;
+}
+.book .book-body .page-wrapper .page-inner section.normal h3 strong em {
+  font-weight: bold;
+}
