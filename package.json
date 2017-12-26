@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-super-prd",
   "description": "Super you PRD style",
   "main": "index.js",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "engines": {
     "gitbook": "*"
   },

@@ -11,7 +11,7 @@ require(["gitbook","jQuery"],function(gitbook,$){
 				$(this)[0].href = $(this)[0].href.replace(/%/g, '-');
 			} else {
 				$(this)[0].href = encodeURI($(this)[0].href); //对 url 进行 encode 转换，如果是 firefox 就不要执行这一行
-		  		$(this)[0].href = $(this)[0].href.replace(/%/g, '-');
+		  		$(this)[0].href = $(this)[0].href.replace(/%25/g, '-');
 			}
 		})
   }
